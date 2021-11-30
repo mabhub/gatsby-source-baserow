@@ -1,0 +1,22 @@
+{
+  "name": "gatsby-source-baserow",
+  "description": "",
+  "version": "0.1.1",
+  "main": "index.js",
+  "scripts": {
+    "version": "git changelog -n -t $npm_package_version && git add CHANGELOG.md"
+  },
+  "contributors": [
+    {
+      "name": "Benjamin Marguin Esparbès",
+      "email": "gatsby-source-baserow@ma-b.com"
+    }
+  ],
+  "repository": "github:mabhub/gatsby-source-baserow",
+  "peerDependencies": {
+    "camelcase": "*",
+    "gatsby-source-filesystem": "*",
+    "node-fetch": "*",
+    "slugify": "*"
+  }
+}
